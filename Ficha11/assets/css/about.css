@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+@media (max-width: 770px) {
+    .content {
+        text-align: center;
+    }
+
+    .content .content-left {
+        margin-top: 20px;
+    }
+
+    .content .content-right {
+        margin-top: 40px;
+    }
+
+    .content .content-right p {
+        margin: 30px 0 50px;
+        padding: 0 50px;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand h1 {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.6em;
+    letter-spacing: -1px;
+}
+
+.navbar-brand h1:hover {
+    opacity: .5;
+}
+
+.navbar-nav .nav-link {
+    color: crimson !important;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #000 !important;
+}
+
+.navbar-nav .divider {
+    color: #000;
+    font-weight: 700;
+}
+
+.navbar-nav .btn-modal {
+    color: #000;
+    font-weight: 700;
+}
+
+.navbar-nav .btn-modal:hover {
+    color: #f8f9f8;
+}
+
+hr {
+    background-color: transparent !important;
+    border: 5px solid crimson !important;
+    margin: 0 !important;
+}
+
+.content {
+    background-color: #f8f9f8;
+}
+
+.content .content-left h3 {
+    color: rgba(0, 0, 0, .8);
+    font-weight: 800;
+    font-size: 2em;
+    letter-spacing: -1px;
+}
+
+.content .content-social {
+    margin: 0;
+    padding: 0;
+}
+
+.content .content-social li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px 10px 0;
+}
+
+.content .content-social li a {
+    color: crimson;
+    font-weight: 700;
+}
+
+.content .content-social li a:hover {
+    color: rgba(0, 0, 0, .8);
+}
+
+.content .content-right h4 {
+    color: crimson;
+    font-weight: 700;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .8);
+    color: #f8f9f8;
+    padding: 10px;
+}
+
+footer h4 {
+    font-weight: 700;
+    font-size: 1.7em;
+}
+
+footer .footer-social {
+    margin: 0;
+    padding: 0;
+}
+
+footer .footer-social li {
+    display: inline-block;
+    list-style: none;
+}
+
+footer .footer-social li a {
+    color: #f8f9f8;
+    padding: 13px;
+}
+
+footer .footer-social li a:hover {
+    opacity: .5;
+}
